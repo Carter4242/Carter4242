@@ -1,4 +1,4 @@
-Name: Update Languages
+name: Update Languages
 on:
   schedule: [{cron: "30 4 * * *"}]
   workflow_dispatch:
