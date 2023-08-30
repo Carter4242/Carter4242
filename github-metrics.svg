@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="985" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="802" class="">
     <defs>
         <style/>
     </defs>
@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            486 Commits
+                            489 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1157,6 +1157,48 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
+                                        <span class="repo">Carter4242/Archive-Pawprints-Tracker</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#63a0fce</div>
+                                        <div class="message">Update README.md</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">30 Aug 2023, 17:08:24</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Carter4242/Archive-Pawprints-Tracker</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#ed91bfb</div>
+                                        <div class="message">Update README.md</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">30 Aug 2023, 17:07:24</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
                                         <span class="repo">Carter4242/Steam-Game-Time-Tracker</span>
                                     </div>
                                 </div>
@@ -1191,126 +1233,12 @@
                                 <div class="timestamp">31 Jul 2023, 22:40:26</div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 12 commits in
-                                        <span class="repo">Carter4242/Steam-Game-Time-Tracker</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#61a3039</div>
-                                        <div class="message">Squash all github actions debug commits into 1
-
-Added check to make see if a given SteamID is 17 characters (length of a SteamID) before adding it
-
-debug actions main.py
-
-debug actions main.py
-
-debug actions main.py
-
-Rename Steam IDs.txt to SteamIDs.txt
-
-Rename Steam IDs to SteamIDs
-
-reverse / in /SteamIDs.txt for github actions
-
-debug github actions
-
-Update .gitignore
-
-Update main.yml
-
-Update main.yml
-
-change '\' to '/'
-
-get rid of debug print statements
-
-change '\' to '/'</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#546cef0</div>
-                                        <div class="message">Add python_dateutil to requirements.txt</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ff16c75</div>
-                                        <div class="message">Create main.yml</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#e7303aa</div>
-                                        <div class="message">Update README.md</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#54cdf19</div>
-                                        <div class="message">Update Steam IDs.txt</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9665c4f</div>
-                                        <div class="message">Enable the use of GitHub Actions secrets for the Steam API key</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#8434e1e</div>
-                                        <div class="message">formatted main.py using autopep8</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ca22b24</div>
-                                        <div class="message">redid main.py</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f58f36c</div>
-                                        <div class="message">Create Steam IDs.txt</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4cbc813</div>
-                                        <div class="message">Update .env to remove STEAMID</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1fb48b8</div>
-                                        <div class="message">Update README.md</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2b73be0</div>
-                                        <div class="message">Add base .env file</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">26 Jul 2023, 05:30:07</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 13 commits in
-                                        <span class="repo">Carter4242/Steam-Game-Time-Tracker</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#15e8c82</div>
-                                        <div class="message">Merge branch 'main' of https://github.com/Carter4242/Steam-Game-Time-Tracker</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">26 Jul 2023, 05:18:41</div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 30 Aug 2023, 00:36:58 (timezone America/New_York) with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 30 Aug 2023, 18:34:39 (timezone America/New_York) with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
