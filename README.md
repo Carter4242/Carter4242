@@ -1,4 +1,4 @@
-New Programmer in College for Computer Science currently!
+New Programmer studying Software Engineering!
 
 ![Metrics](/github-metrics.svg)
 <!--- ![Lines](/metrics.plugin.lines.history.svg) --->
