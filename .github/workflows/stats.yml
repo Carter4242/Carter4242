@@ -1,0 +1,36 @@
+name: Update Stats
+on:
+  schedule: [{cron: "30 4 * * 1,4"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download github-stats
+        run: |
+          curl -fsSL -o github-stats \
+            https://github.com/jstrieb/github-stats/releases/download/2.0.1/github-stats_x86_64-linux
+          chmod +x github-stats
+      - name: Generate images
+        run: |
+          mkdir -p generated
+          ./github-stats
+        env:
+          ACCESS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          OVERVIEW_TEMPLATE: templates/overview.svg
+          LANGUAGES_TEMPLATE: templates/languages.svg
+          OVERVIEW_OUTPUT_FILE: generated/overview.svg
+          LANGUAGES_OUTPUT_FILE: generated/languages.svg
+          SILENT: "true"
+          MAX_RETRIES: 5
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated
+          git commit -m "Update generated stats" || echo "No changes"
+          git push
