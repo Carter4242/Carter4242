@@ -32,9 +32,9 @@ jobs:
           LANGUAGES_TEMPLATE: templates/languages.svg
           OVERVIEW_OUTPUT_FILE: generated/overview.svg
           LANGUAGES_OUTPUT_FILE: generated/languages.svg
-          # Only count my own repos: stars/forks/languages otherwise include
-          # full totals of every third-party repo ever contributed to
-          EXCLUDE_REPOS: "50516021/*, Go-20255/*, JerBouma/*, MrQuackDuck/*, akotsch-21/*, froobynooby/*"
+          # Stars/forks/languages otherwise include full totals of every
+          # repo ever contributed to; list kept in a secret
+          EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
           SILENT: "true"
       - name: Commit
         run: |
