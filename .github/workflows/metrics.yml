@@ -14,10 +14,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Carter4242
           template: classic
-          # NOTE: no "activity" section — GitHub removed commit data from the
-          # public events API, which crashes the activity plugin (and breaks
-          # recent-commit feeds in general)
-          base: header, metadata
+          # NOTE: no plugin_activity ("Recent activity") — GitHub removed
+          # commit data from the public events API, which crashes it
+          base: header, activity, metadata
           base_indepth: yes
           config_timezone: America/New_York
           plugin_isocalendar: yes
