@@ -8,16 +8,4 @@ New Programmer studying Software Engineering!
 - **[Pawprints-Tracker](https://github.com/Carter4242/Pawprints-Tracker)** — Front end for a pet-tracking website. (Python)
 - **[emotes-moderation](https://github.com/Carter4242/emotes-moderation)** — Moderation tooling for Emotecraft. (Java)
 
-<div align="center">
-
-<!-- Dark/light adaptive stats cards, regenerated twice weekly by GitHub Actions -->
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github.com/Carter4242/Carter4242/blob/main/generated/overview.svg#gh-dark-mode-only">
-<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/overview.svg" />
-</picture>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github.com/Carter4242/Carter4242/blob/main/generated/languages.svg#gh-dark-mode-only">
-<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/languages.svg" />
-</picture>
-
-</div>
+![Metrics](/github-metrics.svg)
