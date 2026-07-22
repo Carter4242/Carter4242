@@ -19,6 +19,9 @@ jobs:
           base: header, activity, metadata
           base_indepth: yes
           config_timezone: America/New_York
+          # extra height padding: default (0, 8 + 11%) clips the footer
+          config_padding: 0, 16 + 13%
+          config_animations: no
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
