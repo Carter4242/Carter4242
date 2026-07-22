@@ -10,15 +10,22 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Download github-stats
-        run: |
-          curl -fsSL -o github-stats \
-            https://github.com/jstrieb/github-stats/releases/download/2.0.1/github-stats_x86_64-linux
-          chmod +x github-stats
+      # Build from source: 2.0.1 release binary predates the fix for GitHub's
+      # /stats/contributors returning null authors (deleted accounts)
+      - uses: actions/checkout@v4
+        with:
+          repository: jstrieb/github-stats
+          ref: ef574fae2ce8311f3e1ebb43e07c0c0fae0a41b6
+          path: github-stats-src
+      - uses: mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29  # v2
+        with:
+          version: 0.16.0
+      - name: Build github-stats
+        run: cd github-stats-src && zig build
       - name: Generate images
         run: |
           mkdir -p generated
-          ./github-stats
+          ./github-stats-src/zig-out/bin/github-stats
         env:
           ACCESS_TOKEN: ${{ secrets.METRICS_TOKEN }}
           OVERVIEW_TEMPLATE: templates/overview.svg
