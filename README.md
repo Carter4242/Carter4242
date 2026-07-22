@@ -11,13 +11,13 @@ New Programmer studying Software Engineering!
 <div align="center">
 
 <!-- Dark/light adaptive stats cards, regenerated twice weekly by GitHub Actions -->
-<a href="https://github.com/Carter4242/Carter4242#gh-dark-mode-only">
-<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/languages.svg#gh-dark-mode-only" />
-</a>
-<a href="https://github.com/Carter4242/Carter4242#gh-light-mode-only">
-<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/overview.svg#gh-dark-mode-only#gh-light-mode-only" />
-<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/languages.svg#gh-dark-mode-only#gh-light-mode-only" />
-</a>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github.com/Carter4242/Carter4242/blob/main/generated/overview.svg#gh-dark-mode-only">
+<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/overview.svg" />
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github.com/Carter4242/Carter4242/blob/main/generated/languages.svg#gh-dark-mode-only">
+<img src="https://github.com/Carter4242/Carter4242/blob/main/generated/languages.svg" />
+</picture>
 
 </div>
